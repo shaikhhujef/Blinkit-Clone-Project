@@ -62,18 +62,20 @@ header {
     border: none;
     outline: none;
 }
-.header-login {
-    font-size: 18px;
+.header-login>button {
+    font-size: 25px;
     font-weight: 400;
-    color: rgb(54, 54, 54);
-    margin-right: 70px;
+    color: black;
+    background-color:white;
+    margin-right: 80px;
+    border: none;
 }
 .header-right {
     width: 112px;
     height: 52px;
     background-color: rgb(12, 131, 31);
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     border-radius: 8px;
     display: flex;
@@ -175,22 +177,58 @@ main {
 }
 
 /* Footer Section */
+.footer1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding: 20px;
+}
 
 .footer_links {
-    margin: 16px;
-}
-.footer_links>h2 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
-    margin-left: 110px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    margin-right: 100px;
 }
-.footer_links_table{
+
+.footer_Categories {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
     margin-left: 100px;
 }
 td{
+    color: #a2a0a0;
+    line-height: 2;
+    font-size: 14;
     padding: 10px;
 }
-.author{
+
+.footer2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.footer2>p{
+    width: 40%;
+    font-size: 15px;
+    text-align: justify;
+    color: #6a6a6a;
+    margin-left: 200px;
+}
+.footer2_logo>img{
+    width: 50px;
+    margin-inline: 10px;
+}
+.downloads_logo>img{
+    width: 100px;
+    margin-inline: 5px;
+}
+.bottom{
+    width:auto;
     text-align: center;
 }
